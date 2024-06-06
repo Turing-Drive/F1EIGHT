@@ -18,7 +18,7 @@
 	url = https://github.com/tier4/autoware_auto_msgs.git
 [submodule "src/autoware/universe/autoware.universe"]
 	path = src/autoware/universe/autoware.universe
-	url = https://github.com/NEWSLabNTU/autoware.universe.git
+	url = git@github.com:NEWSLabNTU/autoware.universe.git
 [submodule "src/autoware/universe/external/tier4_ad_api_adaptor"]
 	path = src/autoware/universe/external/tier4_ad_api_adaptor
 	url = https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -76,12 +76,21 @@
 [submodule "src/autoware/param/autoware_individual_params"]
 	path = src/autoware/param/autoware_individual_params
 	url = git@github.com:NEWSLabNTU/F1EIGHT_individual_params.git
-[submodule "src/autoware/middleware/external/heaphook"]
-	path = src/autoware/middleware/external/heaphook
-	url = https://github.com/tier4/heaphook.git
 [submodule "src/gps_umd"]
 	path = src/gps_umd
-	url = https://github.com/NEWSLabNTU/gps_umd.git
+	url = git@github.com:NEWSLabNTU/gps_umd.git
 [submodule "src/gnss_locator"]
 	path = src/gnss_locator
-	url = https://github.com/NEWSLabNTU/gnss_locator.git
+	url = git@github.com:NEWSLabNTU/gnss_locator.git
+[submodule "src/autoware/core/autoware_internal_msgs"]
+	path = src/autoware/core/autoware_internal_msgs
+	url = https://github.com/autowarefoundation/autoware_internal_msgs.git
+[submodule "src/autoware/sensor_kit/awsim_labs_sensor_kit_launch"]
+	path = src/autoware/sensor_kit/awsim_labs_sensor_kit_launch
+	url = https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
+[submodule "src/autoware/universe/external/ament_cmake"]
+	path = src/autoware/universe/external/ament_cmake
+	url = https://github.com/autowarefoundation/ament_cmake.git
+[submodule "src/autoware/universe/external/glog"]
+	path = src/autoware/universe/external/glog
+	url = https://github.com/tier4/glog.git
